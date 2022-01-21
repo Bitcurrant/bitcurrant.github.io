@@ -1,0 +1,36 @@
+body {
+            background-color: #000000;
+            color: #dddddd;
+            font-family: curier;
+}
+a:link {
+  color:#ffffff;
+}
+a:visited {
+  color:#ffffff;
+}
+a:hover {
+  color:#999999;
+}
+hr {
+    border: 1;
+}
+div {
+    font-size: 14px;
+}
+th, td, input{
+    font-size:14px 
+    font-family: curier;
+    background-color: #666;
+}
+table, th, td {
+    border: solid 1px #eee;
+    border-collapse: collapse;
+    padding: 2px 3px;
+    text-align: center;
+    background-color: #ddd;
+    color: #333333;
+}
+th {
+    font-weight:bold;
+}
