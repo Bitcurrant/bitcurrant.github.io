@@ -21,6 +21,7 @@ function CreateTable(inData) {
     var lthcnt = document.createElement(lthcnt);
     lthcnt.innerHTML = "<th>All Lands</th>";
     ltr.appendChild[lthcnt];
+    ltable = "hahaha";
     //var lcol = [];
     
     
