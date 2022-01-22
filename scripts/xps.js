@@ -20,7 +20,7 @@ function CreateTable(inData) {
     var ltr = ltable.insertRow(-1);
     var lth = document.createElement(lth);
     lthcnt.innerHTML = 'All Lands';
-    ltr.appendChild[lth];
+    ltr.appendChild[lthcnt];
     //var lcol = [];
     
     
