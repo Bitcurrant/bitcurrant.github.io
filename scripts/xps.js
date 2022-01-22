@@ -1,4 +1,5 @@
 function CreateTable(inData) {
+    // HEADER DISPLAYED CELLS
     var column = [2,3,4,5,6,7,9,10,11];
     data = inData['rows'];
     data.sort(function(a,b) {
