@@ -19,7 +19,7 @@ function CreateTable(inData) {
     
     var ltable = document.createElement("table");
     
-    var ltr = ltable.insertRow(0);
+    var ltr = ltable.insertRow(-1);
     var lthcnt = document.createElement(lthcnt);
     lthcnt.innerHTML = "All Lands";
     ltr.appendChild[lthcnt];
