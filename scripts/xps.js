@@ -64,8 +64,8 @@ function CreateTable(inData) {
     // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
     var divContainer = document.getElementById("response");
     divContainer.innerHTML = "";
-    //divContainer.appendChild(ltable);
-    divContainer.appendChild(table);
+    divContainer.appendChild(ltable);
+    //divContainer.appendChild(table);
 }    
 
 
