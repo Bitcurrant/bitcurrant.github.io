@@ -18,7 +18,7 @@ function CreateTable(inData) {
     // CREATE MIXED LAND DATA TABLE
     var ltable = document.createElement("ltable");
     var ltr = ltable.insertRow(-1);
-    var lth = document.createElement(lth);
+    var lthcnt = document.createElement(lth);
     lthcnt.innerHTML = 'All Lands';
     ltr.appendChild[lthcnt];
     //var lcol = [];
