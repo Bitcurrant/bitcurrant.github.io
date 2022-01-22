@@ -21,7 +21,7 @@ function CreateTable(inData) {
     
     var ltr = ltable.insertRow(-1);
     var lthcnt = document.createElement(lthcnt);
-    lthcnt.innerHTML = "<th>All Lands</th>";
+    lthcnt.innerHTML = "All Lands";
     ltr.appendChild[lthcnt];
     
     
