@@ -99,7 +99,7 @@ async function sign() {
         
         data = JSON.parse(JSON.stringify(result, null, 2));
         CreateTable(data);
-        //console.log(data['rows'][2].x);
+        console.log(data['rows'][2].x);
         //document.getElementById('response').append(JSON.stringify(result, null, 2))
     } catch(e) {
         document.getElementById('response').append(e.message);
