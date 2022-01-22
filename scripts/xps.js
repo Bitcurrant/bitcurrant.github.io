@@ -16,12 +16,14 @@ function CreateTable(inData) {
         }
     }
     // CREATE MIXED LAND DATA TABLE
+    /*
     var ltable = document.createElement("table");
     var ltr = ltable.insertRow(-1);
     var lthcnt = document.createElement(lthcnt);
     lthcnt.innerHTML = "<th>All Lands</th>";
     ltr.appendChild[lthcnt];
-    ltable = "hahaha";
+    */
+    var ltable = "hahaha";
     //var lcol = [];
     
     
