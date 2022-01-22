@@ -19,7 +19,7 @@ function CreateTable(inData) {
     var ltable = document.createElement("table");
     var ltr = ltable.insertRow(-1);
     var lthcnt = document.createElement(lthcnt);
-    lthcnt.innerHTML = '<th>All Lands</th>';
+    lthcnt.innerHTML = "<th>All Lands</th>";
     ltr.appendChild[lthcnt];
     //var lcol = [];
     
