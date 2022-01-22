@@ -33,6 +33,10 @@ function CreateTable(inData) {
 
     // ADD JSON DATA TO THE TABLE AS ROWS.
     for (var i = 0; i < data.length; i++) {
+        // DEBUG
+        if (data[i].owner =='mzzra.wam') 
+          console.log(data[i].rent_list.length);
+        // LESS THAN THREE RENTER
         if (data[i].rent_list.length < 3) {
             tr = table.insertRow(-1);
             for (var j = 0; j < col.length; j++) {
