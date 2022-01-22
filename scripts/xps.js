@@ -16,7 +16,7 @@ function CreateTable(inData) {
         }
     }
     // CREATE MIXED LAND DATA TABLE
-    var ltable = document.createElement("ltable");
+    var ltable = document.createElement("table");
     var ltr = ltable.insertRow(-1);
     var lthcnt = document.createElement(lthcnt);
     lthcnt.innerHTML = 'All Lands';
