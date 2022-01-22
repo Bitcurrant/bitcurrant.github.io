@@ -15,7 +15,15 @@ function CreateTable(inData) {
             }
         }
     }
-
+    // CREATE MIXED LAND DATA TABLE
+    var ltable = document.createElement("ltable");
+    var ltr = ltable.insertRow(-1);
+    var lth = document.createElement(lth);
+    lthcnt.innerHTML = 'All Lands';
+    ltr.appendChild[lth];
+    //var lcol = [];
+    
+    
     // CREATE DYNAMIC TABLE.
     var table = document.createElement("table");
 
@@ -53,6 +61,7 @@ function CreateTable(inData) {
     // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
     var divContainer = document.getElementById("response");
     divContainer.innerHTML = "";
+    divContainer.appendChild(ltable);
     divContainer.appendChild(table);
 }    
 
