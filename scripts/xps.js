@@ -35,7 +35,7 @@ function CreateTable(inData) {
     for (var i = 0; i < data.length; i++) {
         // DEBUG
         if (data[i].owner =='mzzra.wam') 
-          console.log(data[i].rent_list.length);
+          console.log("acc landcnt:" + data[i].rent_list.length);
         // LESS THAN THREE RENTER
         if (data[i].rent_list.length < 3) {
             tr = table.insertRow(-1);
