@@ -45,10 +45,10 @@ function CreateTable(inData) {
 
     // ADD JSON DATA TO THE TABLE AS ROWS.
     // DEBUG
-    //console.log("land cnt :" + data.length);
+    document.getElementById('response').append("cnt" + data.length);
     for (var i = 0; i < data.length; i++) {
         // DEBUG
-        document.getElementById('response').append("cnt" + data.length);
+        
         //if (data[i].owner =='mzzra.wam') 
           console.log("acc landcnt:" + data[i].rent_list.length);
         // LESS THAN THREE RENTER
