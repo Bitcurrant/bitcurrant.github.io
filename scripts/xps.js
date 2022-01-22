@@ -94,7 +94,7 @@ async function sign() {
             code: 'xpansiongame',
             scope: 'xpansiongame',
             table: 'landsx',
-            limit: 25000
+            limit: 2500
         });
 
         //CreateTable(result);
