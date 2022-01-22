@@ -33,7 +33,7 @@ function CreateTable(inData) {
 
     // ADD JSON DATA TO THE TABLE AS ROWS.
     // DEBUG
-    console.log("land cnt" : data.length)
+    console.log("land cnt :" + data.length);
     for (var i = 0; i < data.length; i++) {
         // DEBUG
         //if (data[i].owner =='mzzra.wam') 
