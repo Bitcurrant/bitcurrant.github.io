@@ -62,7 +62,7 @@ function CreateTable(inData) {
     var divContainer = document.getElementById("response");
     divContainer.innerHTML = "";
     divContainer.appendChild(ltable);
-    divContainer.appendChild(table);
+    //divContainer.appendChild(table);
 }    
 
 
